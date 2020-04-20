@@ -1,0 +1,796 @@
+/* GENERAL */
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+h1
+{
+  font-family: 'Crete Round', serif;
+  font-size: 45px;
+  color: #444;
+}
+
+h2
+{
+  color: #444;
+  font-size: 30px;
+}
+
+h3
+{
+    font-family: 'Crete Round', serif;
+    font-size: 38px
+    color: #444;
+}
+
+h4
+{
+  font-size: 20px;
+  color: #444;
+}
+
+h5
+{
+  font-size: 30px;
+  color: #444;
+}
+
+p
+{
+  line-height: 20px;
+  color: #777;
+}
+
+.ul
+{
+  list-style: none;
+}
+
+a
+{
+  text-decoration: none;
+  color: #444;
+}
+
+.wrapper
+{
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+ .red
+ {
+    color: #f00;
+ }
+
+ .clear
+ {
+   clear: both;
+ }
+
+small{
+  font-size: 13px;
+  font-style: italic;
+}
+
+
+/* MAIN IMAGE*/
+#main-image
+{
+  height: 580px;
+  background: url('images/main.jpg');
+}
+
+#main-image h2
+{
+  font-weight: normal;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 100px 0 40px 0;
+  margin-bottom: 20px;
+}
+
+.button-1
+{
+  display: block;
+  width: 120px;
+  height: 50px;
+  background: #f00;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 auto;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.button-1:hover
+{
+  background: #000080;
+}
+
+/* FOOTER */
+
+footer
+{
+  height: 200px;
+  background-color: #fff;
+}
+
+footer h1
+{
+  color: #000;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.social
+{
+  text-align: center;
+  padding-top: 15px;
+}
+
+.social img
+{
+  margin-right: 20px;
+}
+
+.copyright
+{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
+  color: #777;
+}
+
+/* passions */
+
+#passions
+{
+  background-color: #efefef;
+  padding: 60px 0;
+
+}
+
+
+#passions article
+{
+  width: 460px;
+  height: 270px;
+  float: left;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.line-1 article:first-child
+{
+  margin-right: 20px;
+}
+
+.line-2 article:first-child
+{
+  margin-right: 20px;
+}
+
+.overlay
+{
+  background: rgba(255, 255, 255, 0.85);
+  height: 100%;
+  width: 190px;
+  padding: 20px;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+article h4
+{
+  border-bottom: 2px solid #000080;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#passions p
+{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button-2
+{
+  background-color: #000080;
+  color: #fff;
+  padding: 6px 20px;
+  border-radius: 3px;
+}
+
+.button-2:hover
+{
+  color: #fff;
+  background-color: #f00;
+}
+
+#passions .page a
+{
+  padding-top: 60px;
+}
+
+/* parcours */
+
+#parcours
+{
+  background-color: #efefef;
+  padding: 60px 0;
+}
+
+
+#parcours article
+{
+  width: 200px;
+  height: 425px;
+  float: left;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.overlayb
+{
+  background: rgba(255, 255, 255, 0.90);
+  height: 250px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#parcours article h4
+{
+  border-bottom: 2px solid #f00;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#parcours p
+{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#parcours .page a
+{
+  padding-top: 60px;
+}
+
+.colonne-1 article
+{
+  margin-right: 30px;
+  margin-left: 15px;
+}
+
+.colonne-2 article
+{
+  margin-right: 30px;
+}
+
+.colonne-3 article
+{
+  margin-right: 30px;
+}
+
+.button-3
+{
+  background-color: #f00;
+  color: #fff;
+  padding: 6px 20px;
+  border-radius: 3px;
+}
+
+.button-3:hover
+{
+  color: #fff;
+  background-color: #000080;
+}
+
+/* moi */
+
+#presentation
+{
+  background-color: #efefef;
+  padding: 40px 0;
+}
+
+.texte
+{
+  padding-bottom: 60px;
+}
+
+.texte h5
+{
+  text-align: center;
+  border-bottom: 3px solid #000080;
+  padding-bottom: 20px;
+}
+
+.texte p
+{
+  padding-top: 15px;
+  text-align: center;
+}
+
+.texte p small
+{
+  font-size: 20px;
+
+}
+
+.page a
+{
+  float: left;
+  font-weight: bold;
+  color: #000080
+
+}
+
+#passions .page a:first-child
+{
+  margin-right: 715px;
+
+}
+
+#parcours .page a:first-child
+{
+  margin-right: 715px;
+
+}
+
+#presentation .page a:first-child
+{
+  margin-right: 715px;
+
+}
+
+/* contact */
+
+#contact
+{
+  background-color: #efefef;
+  padding: 40px 0;
+}
+
+#contact .page a
+{
+  padding-top: 60px;
+}
+
+#contact table
+{
+    width: auto;
+    padding-top: 40px;
+
+}
+
+#contact table tr td
+{
+    text-align: center;
+}
+
+.media h5
+{
+  text-align: center;
+  border-bottom: 3px solid #f00;
+  padding-bottom: 20px;
+}
+
+.media .social
+{
+  padding-top: 80px;
+}
+
+.maintenance
+{
+  padding-top: 60px;
+  padding-bottom: 95px;
+}
+
+.maintenance p
+{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.maintenance small
+{
+  font-size: 20px;
+  color: #000080;
+  font-weight: bold;
+}
+
+/* scolarite */
+
+#scolarite
+{
+  background-color: #efefef;
+  padding: 60px 0;
+
+}
+
+
+#scolarite article
+{
+  width: 460px;
+  height: 270px;
+  float: left;
+  border-radius: 10px;
+  margin-bottom: 80px;
+}
+
+#scolarite article:first-child
+{
+  margin-right: 20px;
+}
+
+
+#scolarite .overlay
+{
+  background: rgba(255, 255, 255, 0.90);
+  height: 100%;
+  width: 190px;
+  padding: 20px;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#scolarite article .utt h4
+{
+  border-bottom: 2px solid #000080;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#scolarite article .lycee h4
+{
+  border-bottom: 2px solid #f00;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#scolarite article p
+{
+  margin-bottom: 15px;
+}
+
+#scolarite .retour
+{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#scolarite .retour a
+{
+  font-weight: bold;
+  font-size: 18px;
+  color: #000080;
+  text-align: center;
+}
+
+/* lieux */
+
+#lieux
+{
+  background-color: #efefef;
+  padding: 60px 0;
+
+}
+
+
+#lieux article
+{
+  width: 460px;
+  height: 270px;
+  float: left;
+  border-radius: 10px;
+  margin-bottom: 80px;
+}
+
+#lieux article:first-child
+{
+  margin-right: 20px;
+}
+
+
+#lieux .overlay
+{
+  background: rgba(255, 255, 255, 0.85);
+  height: 100%;
+  width: 190px;
+  padding: 20px;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#lieux article .france h4
+{
+  border-bottom: 2px solid #000080;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#lieux article .etranger h4
+{
+  border-bottom: 2px solid #f00;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#lieux article p
+{
+  margin-bottom: 15px;
+}
+
+#lieux .retour
+{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#lieux .retour a
+{
+  font-weight: bold;
+  font-size: 18px;
+  color: #000080;
+  text-align: center;
+}
+
+#diplome
+{
+  background-color: #efefef;
+  padding: 60px 0;
+}
+
+
+#diplome article
+{
+  width: 200px;
+  height: 425px;
+  float: left;
+  border-radius: 10px;
+  margin-bottom: 80px;
+}
+
+#diplome .overlayb
+{
+  background: rgba(255, 255, 255, 0.90);
+  height: 250px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#diplome .colonne-5 article h4
+{
+  border-bottom: 2px solid #000080;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#diplome .colonne-6 article h4
+{
+  border-bottom: 2px solid #f00;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#diplome .colonne-7 article h4
+{
+  border-bottom: 2px solid #000080;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#diplome .colonne-8 article h4
+{
+  border-bottom: 2px solid #f00;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#diplome p
+{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.colonne-5 article
+{
+  margin-right: 30px;
+  margin-left: 15px;
+}
+
+.colonne-6 article
+{
+  margin-right: 30px;
+}
+
+.colonne-7 article
+{
+  margin-right: 30px;
+}
+
+#diplome .retour
+{
+  text-align: center;
+}
+
+#diplome .retour a
+{
+  font-weight: bold;
+  font-size: 18px;
+  color: #000080;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Menu dÃ©roulant*/
+#listmenu, #listmenu ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align:center;
+    display: table-cell;
+
+}
+#listmenu li{
+    display:inline-block;
+    position:relative;
+    border-radius:8px 8px 0 0;
+
+}
+
+
+#listmenu ul li{
+    display:inherit;
+    border-radius:0;
+}
+#listmenu ul li:hover{
+    border-radius:0;
+}
+#listmenu ul li:last-child{
+    border-radius:0 0 8px 8px;
+}
+#listmenu ul{
+    position:absolute;
+    z-index: 1000;
+    max-height:0;
+    left: 0;
+    right: 0;
+    overflow:hidden;
+    -moz-transition: .8s all .2s;
+    -webkit-transition: .8s all .2s;
+    transition: .8s all .2s;
+}
+#listmenu li:hover ul{
+    max-height:15em;
+}
+#listmenu li li{
+    width: 150px;
+    background:#fff;
+}
+#listmenu li:hover, #listmenu li li:hover{
+    background:##f00;
+}
+#listmenu a{
+    text-decoration:none;
+    display:block;
+    padding:8px 25px;
+    color:#000;
+    font-family:arial;
+}
+#listmenu ul a{
+  text-align: center;
+    /*padding:8px 0;*/
+}
+#listmenu li:hover li a{
+    color:#000;
+    text-transform:inherit;
+}
+#listmenu li:hover a, #listmenu li li:hover a{
+    color:#000;
+}
+
+/* HEADER*/
+
+header
+{
+  height: 120px;
+  background-color: #fff;
+}
+
+header h1
+{
+  float: left;
+  margin-top: 32px;
+}
+
+header nav
+{
+  float: right;
+  margin-top: 50px;
+  background-color: #efefef;
+  border-radius: 8px 8px 8px 8px;
+}
+
+header nav ul li
+{
+  float: left;
+  display: inline-block;
+}
+
+header nav ul li a
+{
+  font-weight: bold;
+}
